@@ -21,7 +21,7 @@
 
 ### Links
 
-- Solution URL: (https://intro-section-with-dropdown-navigation-steel.vercel.app/)
+- Solution URL: (https://iteractive-comment-section.vercel.app/)
 
 ## My process
 
