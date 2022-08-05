@@ -58,7 +58,7 @@ http.onload = async function() {
                                 ${data.currentUser.username == reply.user.username ? 
                                     `
                                         <form class='hide'>
-                                            <textarea name="comment" id="textComment" rows="4" placeholder="Add a comment...">@${reply.replyingTo+' '+reply.content}</textarea>
+                                            <textarea name="comment" rows="4" placeholder="Add a comment...">@${reply.replyingTo+' '+reply.content}</textarea>
                                             <button class="btn-send">
                                                 Update
                                             </button>
@@ -77,9 +77,9 @@ http.onload = async function() {
                             </div>
                     </div>
                     <div class="add-reply-section">
-                        <img id="current-user-avatar" src="${data.currentUser.image.png}" alt="current-user">
+                        <img src="${data.currentUser.image.png}" alt="current-user">
                         <form>
-                            <textarea name="comment" id="textComment" rows="5" placeholder="Add a comment...">@${reply.replyingTo}</textarea>
+                            <textarea name="comment" rows="5" placeholder="Add a comment...">@${reply.replyingTo}</textarea>
                             <button class="btn-send">
                             Reply
                             </button>
@@ -119,9 +119,9 @@ http.onload = async function() {
                     </div>
                 </div>
                 <div class="add-reply-section">
-                        <img id="current-user-avatar" src="${data.currentUser.image.png}" alt="current-user">
+                        <img src="${data.currentUser.image.png}" alt="current-user">
                         <form>
-                            <textarea name="comment" id="textComment" rows="5" placeholder="Add a comment...">@${item.user.username}</textarea>
+                            <textarea name="comment" rows="5" placeholder="Add a comment...">@${item.user.username}</textarea>
                             <button class="btn-send">
                             Reply
                             </button>
