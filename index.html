@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Frontend Mentor | Interactive comments section</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+    <main>
+        <div class="comments" id="comments">
+        </div>
+        <div class="add-comment-section">
+            <img id="current-user-avatar" src="" alt="current-user">
+            <form>
+                <textarea name="comment" id="textComment" rows="5" placeholder="Add a comment..."></textarea>
+                <button class="btn-send">
+                  Send
+                </button>
+            </form>
+        </div>
+    </main>
+    <div class="modal-container">
+        <div class="modal">
+            <h1>Delete</h1>
+            <p>Are you sure you want to delete this <br> comment? This will remove the comment <br> and can't be undone.</p>
+            <div class="modal-btn">
+                <button id="cancel-modal">No, Cancel</button>
+                <button>Yes, Delete</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+</body>
+
+</html>
